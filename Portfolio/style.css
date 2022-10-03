@@ -9,7 +9,10 @@ body{
 p{
     max-width: 70em;
 }
-/* adasdas  */
+
+#myName{
+    width: 6.5rem;
+}
 
 #header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("coding-background.webp");
