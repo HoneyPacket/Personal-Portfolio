@@ -228,12 +228,12 @@ p{
 
 .navbarLinks li{
     list-style: none;
-    transition: 00.2s;
+    /* transition: 00.2s; */
 }
-.navbarLinks li:hover{
+/* .navbarLinks li:hover{
     transition: 00.2s;
     background-color: #197c67;
-}
+} */
 
 .navbarLinks li a{
     text-decoration: none;
@@ -242,6 +242,12 @@ p{
     color: antiquewhite;
     font-size: 1rem;
     font-weight: 900;
+    transition: 0.2s;
+}
+
+.navbarLinks li a:hover{
+    color: #2a93a5;
+    transition: 0.2s;
 }
 
 /* hamburger icon */
