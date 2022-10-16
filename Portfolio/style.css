@@ -55,7 +55,7 @@ p{
 #footer{
     background-color: #0d0f0f;
     margin-bottom: -1rem;
-    margin-top: 3rem;
+    margin-top: 1.4rem;
     padding: 3rem;
 }
 
@@ -75,9 +75,18 @@ p{
 }
 
 #projects{
-    background-color: #031b13;
+    background-color: #0b1b18;
     margin-top: -1.3em;
     padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+#contactMe{
+    margin-top: -1.4em;
+    margin-bottom: -1.4em;
+    background-color: #061416;
+    padding-bottom: 3em;
+    padding-top: 2em;
 }
 
 
@@ -103,7 +112,7 @@ p{
 /* skills */
 #skillsDiv{
     margin: 0;
-    background-color: #011827;
+    background-color: #061416;
     padding-top: 1rem;
     padding-bottom: 5rem;
 }
@@ -207,6 +216,17 @@ p{
     transition: 0.2s;
 }
 
+/* /////////////// */
+/* ////footer///// */
+.footerLinks{
+    color: #2a93a5;
+    transition: 0.2s;
+}
+
+.footerLinks:hover{
+    color: #0d2d33;
+    transition: 0.2s;
+}
 
 
 /* ////////////// */
