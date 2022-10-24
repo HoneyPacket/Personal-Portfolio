@@ -216,6 +216,26 @@ p{
     transition: 0.2s;
 }
 
+
+
+.contactMeBtn{
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: #00000000;
+    padding: 1rem;
+    padding-top: 00.5rem;
+    padding-bottom: 00.5rem;
+    border-radius: 1.2rem;
+    border: 3px solid #2a93a5;
+    transition: 0.2s;
+}
+
+.contactMeBtn:hover{
+    background-color: #2a93a5;
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
 /* /////////////// */
 /* ////footer///// */
 .footerLinks{
@@ -285,7 +305,7 @@ p{
 .hamburgerMenu .ham{
     height: 3px;
     width: 100%;
-    background-color:#161819;
+    background-color: antiquewhite;
     border-radius: 10px;
 }
 /*  */
