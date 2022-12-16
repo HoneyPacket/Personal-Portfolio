@@ -10,7 +10,7 @@
     <title>Ben's Portfolio</title>
 </head>
 <body>
-    <center>
+    <!-- <center> -->
 <!-- header -->
 
     <div id="header">
@@ -42,9 +42,11 @@
 
 <!-- main header -->
         <h1 id="headName">Benjamin Rutledge</h1>
-        <h3>Front End<br> Web Developer</h3>
+        <h3>Web Developer</h3>
+         <center>
         <a title="GitHub" href="https://github.com/HoneyPacket"><img class="headIcons" src="images/github.png" alt="github"></a>
         <a title="Resume" href="https://github.com/HoneyPacket"><img class="headIcons" src="images/portIcon.png" alt="Portfolio"></a>
+         </center>
     </div>
 
 
@@ -62,9 +64,9 @@
  
     
 <!--  skills  -->
+<h1 class="divHeader">Skills</h1>
     <div id="skillsDiv">
-        <h1>Skills</h1>
-
+        <h2 style="text-align: center;">Major Skills</h2>
         <div class="skillDiv">
             <h3 class="skillHead">HTML</h3>
             <img class="skillImg" src="images/html_icon.png" alt="HTML">
@@ -95,17 +97,36 @@
             <img class="skillImg" src="images/phoneClipart.png" alt="Phone">
         </div>
 
+        <!-- minor skills -->
+        <h2 style="text-align: center;">Minor Skills</h2>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">PHP</h3>
+            <img class="skillImg" src="images/php.png" alt="PHP">
+        </div>
+
         <div class="skillDiv">
             <h3 class="skillHead">Bash<br>Terminal</h3>
             <img class="skillImg" src="images/bash.png" alt="Bash">
         </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">SQL</h3>
+            <img class="skillImg" src="images/sql.png" alt="sql">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">Wordpress</h3>
+            <img class="skillImg" src="images/wordpress.png" alt="wordpress">
+        </div>
+
     </div>
     
 
 
 <!-- projects -->
+<h1 class="divHeader">Projects</h1>
     <div id="projects">
-        <h1 class="divHeader">Projects</h1>
         
         <!-- Theme picker project -->
         <div class="halfDiv">
@@ -118,24 +139,12 @@
             </div>
         </div>
         
-      
-        <!-- change  -->
-        <!-- <div class="halfDiv">
-            <img class="projectDivImg" src="themePic.png" alt="theme pic">
-            <div>
-                <h3 class="projectHeader">Theme Selector</h3><br>
-                <p>Change the theme of a webpage.</p>
-                <a href="/Themes/theme.html"><button class="projectBtn">Project</button></a>
-                <a href="https://github.com/HoneyPacket/Themes"><button class="githubBtn">Github</button></a>
 
-
-            </div>
-        </div> -->
     </div>
 
 <!-- contact me -->
+<h1 class="divHeader">Contact Me</h1>
     <div id="contactMe">
-        <h1 class="divHeader">Contact Me</h1>
         <form action="mailto:Brutledge311@gmail.com" method="post" enctype="text/plain">
             Name:<br>
             <input type="text" name="name"><br>
