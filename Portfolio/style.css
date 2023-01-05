@@ -1,6 +1,6 @@
 body{
     background-color: #121414;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
     color: antiquewhite;
     margin: 0;
@@ -11,12 +11,14 @@ p{
     max-width: 70em;
 }
 
+
+
 #myName{
     width: 6.5rem;
 }
 
 #header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.514)), url("images/head.jpg");
+    background-image: linear-gradient(#121414e5, #121414a9), url("images/head.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,14 +27,14 @@ p{
     width: auto;
     height: 60em;
     margin-bottom: 0;
-    box-shadow: 1px 5px #89b482;
+    /* box-shadow: 1px 5px #89b482; */
     align-items: center;
     justify-content: center;
 }
 
 #header > h3{
     text-align: center;
-    text-shadow: -3px 3px 2px #c29a67;
+    text-shadow: -3px 3px 2px #89b482;
 }
 
 #icons{
@@ -58,9 +60,10 @@ p{
 
 #headName{
     padding-top: 10rem;
-    font-size: 3rem;
-    text-shadow: -3px 3px 2px #c29a67;
+    font-size: 3.5rem;
+    text-shadow: -3px 3px 2px #dc645d;
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -91,16 +94,6 @@ p{
 
 
 /* about me */
-/* #aboutMe{
-    background-color: #0b1b18;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: -1.4em;
-    margin-bottom: -1.4em;
-    padding: 1rem;
-    padding-bottom: 4rem;
-} */
-
 #aboutMeDiv{
     margin: auto;
     width: 80%;
@@ -108,17 +101,11 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2e2a2a9c;
+    background-color: #1d20219a;
     box-shadow: 10px 10px 2px #dc645d;
     padding: 1rem;
     transition: 0.4s;
 }
-
-#aboutMeDiv:hover{
-    transition: 0.4s;
-    box-shadow: 10px 10px 1px #dc645d;
-}
-
 
 #aboutMeImg{
     height: 14rem;
@@ -170,11 +157,14 @@ p{
 
 /* projects */
 #projects{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
     margin: auto;
-    padding: 1rem;
+    padding: 0;
     padding-bottom: 3rem;
-    max-width: 40rem;
-    left: 50%;
+    max-width: 60rem;
+    /* left: 50%; */
 }
 
 .projectHeader{
@@ -197,13 +187,15 @@ p{
 /* half divs */
 .halfDiv{
     margin: auto;
-    max-width: 30rem;
+    width: 25rem;
+    min-width: 25rem;
     position: relative;
-    display: inline-flex;
+    display: flex;
     background-color: #151718;
-    border-radius: 0.2rem;
+    border-radius: 0.1rem;
     text-align: center;
     border: solid 3px #d4be98;
+    margin-top: 0.7rem;
 }
 
 .halfDivText{
@@ -248,7 +240,7 @@ p{
     cursor: pointer;
     position: absolute;
     bottom: 2px;
-    right: 11rem;
+    right: 9rem;
     /* margin-top: 0.5rem; */
 }
 
@@ -280,12 +272,12 @@ p{
 /* /////////////// */
 /* ////footer///// */
 .footerLinks{
-    color: #2a93a5;
+    color: #dc645d;
     transition: 0.2s;
 }
 
 .footerLinks:hover{
-    color: #0d2d33;
+    color: #df4d45;
     transition: 0.2s;
 }
 
@@ -327,7 +319,7 @@ p{
 }
 
 .navbarLinks li a:hover{
-    color: #c29a67;
+    color: #89b482;
     transition: 0.2s;
 }
 
@@ -361,6 +353,7 @@ p{
     .navbarLinks ul{
         width: 100%;
         flex-direction: column;
+        text-align: center;
     }
     .navbarLinks.active{
         display: flex;
