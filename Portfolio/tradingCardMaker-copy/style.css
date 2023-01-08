@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #1a1a1d;
+    color: antiquewhite;
+}
+
+#mainImg{
+    height: 400px;
+    width: 300px;
+    /* margin: 3rem; */
+    border: antiquewhite solid 4px;
+    position: absolute;
+}
+
+#cardImg{
+    position: relative;
+    height: 180px;
+    width: 275px;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+#topTxt{
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 0.5rem;
+    margin-top: 0;
+    top: 0.3rem;
+}
+#btmTxt{
+    position: absolute;
+    top: 14rem;
+    text-align: left;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: large;
+}
+
+#midTxt{
+    position: absolute;
+    top: 19rem;
+    text-align: left;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#midTxt2{
+    position: absolute;
+    top: 22rem;
+    text-align: left;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#numStat1{
+    position: absolute;
+    top: 19rem;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 15.5rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#numStat2{
+    position: absolute;
+    top: 22rem;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 15.5rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#imgDiv{
+    max-height: 400px;
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    top: 2rem;
+}
+
+#imgUpload{
+    background-color: antiquewhite;
+    color: #000000;
+}
+
+#back{
+    background-image: url('imgs/blueCard.png');
+    background-size: 100%;
+    height: 404px;
+    width: 304px;
+    position: absolute;
+    margin: auto;
+}
+
+#greatStuff{
+    background-color: #2b2a33;
+    border: #eac59a solid 2px;
+    border-radius: 4px;
+    margin: auto;
+    padding: 2rem;
+}
+
+#textDiv{
+    display: flex;
+}
+
+#altOptions{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 800;
+}
+
+#submitBtn{
+    margin-top: 0.3rem;
+    border-radius: 0%;
+    background-color: #1f1e22;
+    padding: 0.4rem;
+    color: #e8c7ab;
+    border: #e8c7ab solid 2px;
+    font-weight: 600;
+}
+
+#submitBtn:hover{
+    cursor: pointer;
+    color: #c4a183;
+    border: #c4a183 solid 2px;
+}
+
+#submitBtn:active{
+    /* font-weight: 800; */
+    /* border: #c4a183 solid 3px; */
+    background-color: #111113;
+}
+
+#plop{
+    background-color: #2b2a33;
+    border: #eac59a solid 2px;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    margin-top: 5rem;
+    padding: 0.3rem;
+    top: 11rem;
+}
