@@ -15,7 +15,8 @@ p{
 }
 
 
-
+/* ////// */
+/* Header */
 #myName{
     width: 6.5rem;
 }
@@ -71,12 +72,6 @@ p{
 }
 
 
-#footer{
-    background-color: #0d0f0f;
-    margin-top: 5rem;
-    padding: 3rem;
-    text-align: center;
-}
 
 .divHeader{
     font-family: sans-serif;
@@ -85,19 +80,9 @@ p{
     margin-top: 4em;
 }
 
-#contactMe{
-    margin: auto;
-    width: 50%;
-    max-width: 30rem;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #061416; */
-    padding: 3rem;
-    background-color: #1d20219a;
-    box-shadow: 10px 10px 2px #89b482;
-}
 
 
+/* //////// */
 /* about me */
 #aboutMeDiv{
     margin: auto;
@@ -130,6 +115,7 @@ p{
 
 
 
+/* ////// */
 /* skills */
 #skillsDiv{
     margin: auto;
@@ -158,13 +144,6 @@ p{
     display: flex;
 }
 
-#minorSkillTxt{
-    text-align: center;
-    margin-top: 0%;
-    color: #89b482;
-    font-style: italic;
-}
-
 .skillImg{
     height: 6rem;
     display: flex;
@@ -172,7 +151,7 @@ p{
 }
 
 
-
+/* //////// */
 /* projects */
 #projects{
     position: relative;
@@ -189,18 +168,6 @@ p{
     margin: 0;
 }
 
-
-
-
-
-/* full divs */
-.fullDiv{
-    padding: 2rem;
-    margin: 1em;
-    max-width: 70em;
-    border: solid 0.2rem #2a93a5;
-    border-radius: 0.5rem;
-}
 
 /* half divs */
 .halfDiv{
@@ -269,6 +236,19 @@ p{
     transition: 0.2s;
 }
 
+/* ////////// */
+/* contact me */
+#contactMe{
+    margin: auto;
+    width: 50%;
+    max-width: 30rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #061416; */
+    padding: 3rem;
+    background-color: #1d20219a;
+    box-shadow: 10px 10px 2px #89b482;
+}
 
 
 .contactMeBtn{
@@ -291,6 +271,13 @@ p{
 }
 /* /////////////// */
 /* ////footer///// */
+#footer{
+    background-color: #0d0f0f;
+    margin-top: 5rem;
+    padding: 3rem;
+    text-align: center;
+}
+
 .footerLinks{
     color: #dc645d;
     transition: 0.2s;
