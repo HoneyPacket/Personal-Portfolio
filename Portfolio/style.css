@@ -82,6 +82,7 @@ p{
     font-family: sans-serif;
     font-weight: 800;
     text-align: center;
+    margin-top: 4em;
 }
 
 #contactMe{
@@ -155,6 +156,13 @@ p{
     font-style: italic;
     width: 100%;
     display: flex;
+}
+
+#minorSkillTxt{
+    text-align: center;
+    margin-top: 0%;
+    color: #89b482;
+    font-style: italic;
 }
 
 .skillImg{
