@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ben's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="src/script.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="images/light.png" type="image/png">
+</head>
+<body>
+<!-- header -->
+
+    <div id="header">
+        <div id="navbar">
+            <img id="myName" src="images/myName.png" alt="Ben Rutledge"> 
+   
+    
+            <!-- navbar links -->
+            <div class="navbarLinks">
+                <ul>
+                    <li><a href="#aboutMe">About me</a></li>
+                    <li><a href="#skillsDiv">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactMe">Contact Me</a></li>
+                </ul>
+            </div>
+    
+
+        <!-- hamburger menu icon -->
+            <a href="#" class="hamburgerMenu">
+                <span class="ham"></span>
+                <span class="ham"></span>
+                <span class="ham"></span>
+            </a>
+    
+    
+        </div>
+
+
+<!-- main header -->
+        <h1 id="headName">Benjamin Rutledge</h1>
+        <h3>Front end <br> Web Developer</h3>
+         <center>
+        <a target="_blank" title="GitHub" href="https://github.com/HoneyPacket"><img class="headIcons" src="images/github.png" alt="github"></a>
+        <a target="_blank" title="Resume" href="https://github.com/HoneyPacket"><img class="headIcons" src="images/portIcon.png" alt="Portfolio"></a>
+         </center>
+    </div>
+
+
+<!-- about me -->
+    <div id="aboutMe">
+        <h1 class="divHeader" style="margin-top: 1em;">About me</h1>
+        
+        <div id="aboutMeDiv">
+            <img id="aboutMeImg" src="images/Me.png" alt="Photo of me">
+             <p id="aboutMeTxt">Hello! My name is Benjamin Rutledge and I'm a front end web developer from Michigan in the United States. I'm always excited to learn new skills and I get a great amount of joy when I'm able to utilize those skills in my work.
+                <br><br>
+                As for personal hobbies I really enjoy being out in nature either hiking or camping, playing the guitar, or going bowling when I'm not tinkering around with something on my computer.</p>
+        </div>    
+    </div>
+ 
+    
+<!--  skills  -->
+<h1 class="divHeader">Skills</h1>
+    <div id="skillsDiv">
+        <h2 style="text-align: center;">Major Skills</h2>
+        <div class="skillDiv">
+            <h3 class="skillHead">HTML</h3>
+            <img class="skillImg" src="images/html_icon.png" alt="HTML">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">CSS</h3>
+            <img class="skillImg" src="images/css_icon.png" alt="CSS">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">Javascript</h3>
+            <img class="skillImg" src="images/javascript_icon.png" alt="Javascript">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">Photoshop</h3>
+            <img class="skillImg" src="images/photoshop_icon.png" alt="Photoshop">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">Github</h3>
+            <img class="skillImg" src="images/github.png" alt="Github">
+        </div>
+
+        <div class="skillDiv">
+        <h3 class="skillHead">Responsive<br>Websites</h3>
+        <img class="skillImg" src="images/phonePic.jpeg" alt="Phone">
+        </div>
+
+        <!-- minor skills -->
+        <h2 style="text-align: center; margin-top: 5rem;">Minor Skills</h2>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">PHP</h3>
+            <img class="skillImg" src="images/php.png" alt="PHP">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">Bash<br>Terminal</h3>
+            <img class="skillImg" src="images/bash.png" alt="Bash">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">SQL</h3>
+            <img class="skillImg" src="images/sql.png" alt="sql">
+        </div>
+
+        <div class="skillDiv">
+            <h3 class="skillHead">Wordpress</h3>
+            <img class="skillImg" src="images/wordpress.png" alt="wordpress">
+        </div>
+
+    </div>
+    
+
+
+<!-- projects -->
+<h1 class="divHeader">Projects</h1>
+    <div id="projects">
+        
+        <!-- Theme picker project -->
+        <div class="halfDiv">
+            <img class="projectDivImg" src="images/themePic.png" alt="theme pic">
+            <div>
+                <h3 class="projectHeader">Theme Selector</h3><br>
+                <p class="halfDivText">Simple project for changing the theme of a webpage to suite the users preference</p>
+                <a target="_blank" href="https://honeypacket.github.io/Themes/"><button class="projectBtn">Project</button></a>
+                <a target="_blank" href="https://github.com/HoneyPacket/Themes"><button class="githubBtn">Github</button></a>
+            </div>
+        </div>
+
+        <!-- trading car maker project -->
+        <div class="halfDiv">
+            <img class="projectDivImg" src="images/cardPic.png" alt="theme pic">
+            <div>
+                <h3 class="projectHeader">Trading card maker</h3><br>
+                <p class="halfDivText">Upload your own images to turn them into fun trading cards!</p>
+                <a target="_blank" href="https://honeypacket.github.io/Trading-Card-Maker/"><button class="projectBtn">Project</button></a>
+                <a target="_blank" href="https://github.com/HoneyPacket/Trading-Card-Maker"><button class="githubBtn">Github</button></a>
+            </div>
+        </div>
+        
+
+    </div>
+
+<!-- contact me -->
+<h1 class="divHeader">Contact Me</h1>
+    <div id="contactMe">
+        <form action="mailto:Brutledge311@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail" required><br>
+            Subject:<br>
+            <input type="text" name="subject"><br>
+            Message:<br>
+            <textarea name="message" cols="25" rows="7" required></textarea><br><br>
+            <input class="contactMeBtn" type="submit" value="Send">
+            </form>
+    </div>
+
+<!-- footer -->
+    <div id="footer">
+        <i><b>Email:</b></i> Brutledge311@gmail.com<br>
+        <a target="_blank" class="footerLinks" href="https://github.com/HoneyPacket">Github</a><br>
+        <a target="_blank" class="footerLinks">Resume</a><br>
+    </div>
+</body>
+</html>
