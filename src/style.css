@@ -3,7 +3,6 @@
 body{
     background-color: #121414;
     font-family: 'Rubik', sans-serif;
-    /* font-weight: 500; */
     color: antiquewhite;
     margin: 0;
     padding: 0;
@@ -31,7 +30,6 @@ p{
     width: auto;
     height: 60em;
     margin-bottom: 0;
-    /* box-shadow: 1px 5px #89b482; */
     align-items: center;
     justify-content: center;
 }
@@ -91,7 +89,7 @@ p{
     align-items: center;
     justify-content: center;
     background-color: #1d20219a;
-    box-shadow: 10px 10px 2px #dc645d;
+    box-shadow: 10px 10px 2px #89b482;
     padding: 1rem;
 }
 
@@ -118,7 +116,6 @@ p{
 /* skills */
 #skillsDiv{
     margin: auto;
-    /* background-color: #061416; */
     padding-top: 1rem;
     padding-bottom: 5rem;
     max-width: 70rem;
@@ -160,7 +157,6 @@ p{
     padding: 0;
     padding-bottom: 3rem;
     max-width: 60rem;
-    /* left: 50%; */
 }
 
 .projectHeader{
@@ -194,7 +190,6 @@ p{
     margin: 0;
     padding: 0;
     width: 10rem;
-    /* border-radius: 0.3rem; */
     border-right: #89b482 double 3px;
 }
 
@@ -227,7 +222,6 @@ p{
     position: absolute;
     bottom: 2px;
     right: 9rem;
-    /* margin-top: 0.5rem; */
 }
 
 .projectBtn:hover{
@@ -243,7 +237,6 @@ p{
     max-width: 30rem;
     justify-content: center;
     align-items: center;
-    /* background-color: #061416; */
     padding: 3rem;
     background-color: #1d20219a;
     box-shadow: 10px 10px 2px #89b482;
@@ -296,7 +289,6 @@ p{
 #navbar{
     display: flex;
     align-items: center;
-    /* background-color: #00000038; */
 }
 
 .navbarLinks ul{
@@ -307,12 +299,8 @@ p{
 
 .navbarLinks li{
     list-style: none;
-    /* transition: 00.2s; */
 }
-/* .navbarLinks li:hover{
-    transition: 00.2s;
-    background-color: #197c67;
-} */
+
 
 .navbarLinks li a{
     text-decoration: none;
