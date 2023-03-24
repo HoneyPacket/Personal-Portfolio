@@ -39,6 +39,30 @@ p{
     text-shadow: -3px 3px 2px #89b482;
 }
 
+#resumeBtn{
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: #00000000;
+    padding: 1rem;
+    padding-top: 00.5rem;
+    padding-bottom: 00.5rem;
+    border-radius: 1.6rem;
+    border: 4px solid #89b482;
+    transition: 0.2s;
+    max-width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+#resumeBtn:hover{
+    background-color: #89b482;
+    color: #0d0f0f;
+}
+
+
 #icons{
     background-color: #18384d;
 }
