@@ -34,7 +34,7 @@ p{
     justify-content: center;
 }
 
-#header > h3{
+#header > h2{
     text-align: center;
     text-shadow: -3px 3px 2px #89b482;
 }
@@ -178,7 +178,7 @@ p{
     display:flex;
     flex-wrap: wrap;
     margin: auto;
-    padding: 0;
+    padding: 1rem;
     padding-bottom: 3rem;
     max-width: 60rem;
 }
@@ -188,72 +188,58 @@ p{
 }
 
 
-/* half divs */
-.halfDiv{
+/* Updated Project Cards */
+
+.projectCard{
     margin: auto;
-    width: 25rem;
-    height: 12rem;
-    min-width: 25rem;
-    position: relative;
-    display: flex;
+    margin-top: 3rem;
+    border: #89b482 3px solid;
+    border-radius: 3px;
     background-color: #151718;
-    border-radius: 0.1rem;
     text-align: center;
-    border: solid 3px #89b482;
-    margin-top: 2rem;
+    width: 20rem;
 }
 
-.halfDivText{
-    padding: 0.5rem;
-    padding-bottom: 3rem;
-    padding-top: 0;
-    margin-top: 0;
+.projectCard{
+    padding: 1rem;
 }
 
-
-
-.projectDivImg{
-    margin: 0;
+.projectCard ul{
+    list-style: none;
+    /* margin: 0%; */
     padding: 0;
-    width: 10rem;
-    border-right: #89b482 double 3px;
 }
 
-.githubBtn{
-    color: #151718;
-    border: none;
-    padding: 0.5rem 1rem;
+.projectCard ul li{
+    display: inline;
+    padding: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color: #0d0f0f;
+    font-weight: 600;
     background-color: #89b482;
-    font-weight: 700;
-    transition: 0.2s;
-    cursor: pointer;
-    position: absolute;
-    bottom: 2px;
-}
-
-.githubBtn:hover{
-    background-color: #344e30;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     transition: 0.2s;
 }
 
-
-.projectBtn{
-    color: #151718;
-    border: none;
-    padding: 0.5rem 1rem;
-    background-color: #89b482;
-    font-weight: 700;
+.projectCard ul li:hover{
     transition: 0.2s;
-    cursor: pointer;
-    position: absolute;
-    bottom: 2px;
-    right: 9rem;
+    background-color: #b7f8ab;
+    color: #1d2020;
 }
 
-.projectBtn:hover{
-    background-color: #344e30;
-    transition: 0.2s;
+.projectCardLink{
+    text-decoration: none;
 }
+
+.projectCardImg{
+    width: 13rem;
+    height: 13rem;
+}
+
+
+
 
 /* ////////// */
 /* contact me */
